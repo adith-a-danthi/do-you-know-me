@@ -1,0 +1,24 @@
+{
+  "name": "do-you-know-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adith-a-danthi/do-you-know-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adith-a-danthi/do-you-know-me/issues"
+  },
+  "homepage": "https://github.com/adith-a-danthi/do-you-know-me#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}
