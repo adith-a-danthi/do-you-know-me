@@ -31,6 +31,16 @@ var questions = [
     question: "What is my favourite color?",
     options: ["Orange", "Blue", "Green"],
     answer: "Blue"
+  },
+  {
+    question: "What do I like to do to relax?",
+    options: ["Play Video Games", "Sing", "Sleep", "Sketch"],
+    answer: "Play Video Games"
+  },
+  {
+    question: "What's my favourite Anime?",
+    options: ["Naruto", "One Piece", "Dragon Ball", "Code Geass"],
+    answer: "One Piece"
   }
 ]
 
@@ -76,7 +86,7 @@ function showScores(currentPlayer) {
     if(score >= highScores[i].score) {
       log(scoreColor.inverse(`Whoa! You're number ${i+1} on the leaderboard!`));
       log(chalk.cyan("Ping me with a screenshot and I'll update the leaderboard!"))
-      return;
+      break;
     }
   }
 
